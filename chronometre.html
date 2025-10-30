@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronomètre</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>Chronomètre</h1></header>
+
+  <main class="timer-wrap">
+    <section class="timer-card" aria-label="Chronomètre">
+      <div class="time-display" id="chrono-display" aria-live="polite">00:00</div>
+
+      <div class="actions-row">
+        <button class="btn primary" id="toggle-btn">Démarrer</button>
+        <button class="btn" id="lap-btn">Tour</button>
+        <button class="btn ghost" id="reset-btn">Réinitialiser</button>
+      </div>
+
+      <div class="setters">
+        <label class="label">Temps</label>
+        <ul id="laps" class="time-input"></ul>
+      </div>
+    </section>
+
+    <nav class="back-link">
+      <a href="index.html">Retour à l'index</a>
+    </nav>
+  </main>
+
+  <script src="JS/chronometre.js" defer></script>
+</body>
+</html>

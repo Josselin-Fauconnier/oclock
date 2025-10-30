@@ -14,14 +14,11 @@
   const alertText = document.getElementById('alert-text');
   const alertCloseBtn = document.getElementById('alert-close');
 
-  // État du minuteur
+  
   let secondsRemaining = 0;
   let timerInterval = null;
 
-  /**
-   * Formatation 
-   
-   */
+  
   function format(totalSeconds) {
     const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
@@ -53,17 +50,17 @@
       return 0;
     }
 
-    // Format : ss
+   
     if (parts.length === 1) {
       return Math.max(0, parts[0]);
     }
 
-    // Format : mm:ss
+  
     if (parts.length === 2) {
       return Math.max(0, parts[0] * 60 + parts[1]);
     }
 
-    // Format : hh:mm:ss
+    
     if (parts.length === 3) {
       return Math.max(0, parts[0] * 3600 + parts[1] * 60 + parts[2]);
     }
