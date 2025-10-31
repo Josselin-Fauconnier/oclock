@@ -1,4 +1,3 @@
-
 function tick() {
   
   const now = new Date();
@@ -25,6 +24,3 @@ tick();
 
 
 setInterval(tick, 100);
-
-
-

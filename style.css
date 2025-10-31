@@ -271,4 +271,16 @@ a{
 }
 
 
+/* Réveil  */
+
+#alarms{
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  max-height: 200px;
+  overflow: auto;
+}
+
+
+
 
