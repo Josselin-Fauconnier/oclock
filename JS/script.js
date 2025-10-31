@@ -19,8 +19,6 @@ function tick() {
     `translate(-50%, 0) rotate(${minutesDeg}deg)`;
 }
 
-
 tick();
-
 
 setInterval(tick, 100);

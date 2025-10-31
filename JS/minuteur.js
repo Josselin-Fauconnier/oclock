@@ -1,5 +1,4 @@
 
-
 (function() {
 
   const disp = document.getElementById('time-display');
