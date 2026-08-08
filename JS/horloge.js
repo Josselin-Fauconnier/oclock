@@ -7,7 +7,7 @@
 
   function tick() {
     const d = new Date();
-    const h = (d.getUTCHours() + 1 + 24) % 24; // UTC+1
+    const h = (d.getUTCHours() + 1 + 24) % 24; 
     const m = d.getUTCMinutes();
     const s = d.getUTCSeconds();
 
