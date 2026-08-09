@@ -7,9 +7,9 @@
 
   function tick() {
     const d = new Date();
-    const h = (d.getUTCHours() + 1 + 24) % 24; 
-    const m = d.getUTCMinutes();
-    const s = d.getUTCSeconds();
+    const h = d.getHours();
+    const m = d.getMinutes();
+    const s = d.getSeconds();
 
     txt.textContent = `${two(h)}:${two(m)}:${two(s)}`;
     

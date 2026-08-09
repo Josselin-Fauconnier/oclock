@@ -113,7 +113,7 @@
     alertBackdrop.classList.remove('hidden');
   }
 
-  // Gestion des événements 
+
 
   incBtn.addEventListener('click', () => {
     const step = parseInt(stepSel.value) || 60;

@@ -1,3 +1,7 @@
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("ServiceWorker.js");
+}
+
 function tick() {
   
   const now = new Date();
